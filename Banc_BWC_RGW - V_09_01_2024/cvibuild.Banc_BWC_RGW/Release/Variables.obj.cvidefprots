@@ -1,0 +1,40 @@
+[VAR_Get]
+Class="Function"
+Prototype="int VAR_Get(struct T_VARIABLE *tVariablesModele, int nbVariablesModele, struct T_VARIABLES *tVariables, struct __SCProduction_GestionProductions *instSCProduction, char *numSerie, char *codeProduit, char *indiceProduit, char *nomPoste, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:524:5"
+
+[VAR_Set]
+Class="Function"
+Prototype="int VAR_Set(struct T_VARIABLES *tVariables, struct __SCProduction_GestionProductions *instSCProduction, char *codeProduit, char *indiceProduit, char *numSerie, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:842:5"
+
+[VAR_Raz]
+Class="Function"
+Prototype="int VAR_Raz(struct T_VARIABLES *tVariables);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:1038:5"
+
+[VAR_Delete]
+Class="Function"
+Prototype="int VAR_Delete(struct T_VARIABLES *tVariables);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:1222:5"
+
+[VAR_Print]
+Class="Function"
+Prototype="int VAR_Print(struct T_VARIABLES *tVariables, char *strPrint, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:1298:5"
+
+[VAR_SetString]
+Class="Function"
+Prototype="int VAR_SetString(struct T_VARIABLES *tVariables, int idxVariable, char *valeur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:1386:5"
+
+[VAR_GetString]
+Class="Function"
+Prototype="int VAR_GetString(struct T_VARIABLES *tVariables, int index, char *valeur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:1644:5"
+
+[VAR_GestionTableau]
+Class="Function"
+Prototype="int VAR_GestionTableau(int nItfe, struct T_TCOM_BASE *tcomBase, struct T_VARIABLES *tVariables, char *numSerie, char *Ressource, char *Operation, int iAction, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Variables.c:1826:5"
+

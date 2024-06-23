@@ -1,0 +1,215 @@
+[SCPROD_Connexion]
+Class="Function"
+Prototype="int SCPROD_Connexion(struct T_TCOM_BASE *tcomBase, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:76:5"
+
+[SCPROD_Deconnexion]
+Class="Function"
+Prototype="int SCPROD_Deconnexion(struct T_TCOM_BASE *tcomBase);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:258:5"
+
+[SCPROD_PosteInformations]
+Class="Function"
+Prototype="int SCPROD_PosteInformations(struct T_TCOM_BASE *tcomBase, struct T_POSTE_INFOS *posteInfos, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:326:5"
+
+[SCPROD_ProduitsPoste]
+Class="Function"
+Prototype="int SCPROD_ProduitsPoste(struct T_TCOM_BASE *tcomBase, struct T_POSTE_INFOS *posteInfos, struct T_POSTE_PRODUITS *posteProduits, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:453:5"
+
+[TCOM_ProduitCopier]
+Class="Function"
+Prototype="int TCOM_ProduitCopier(struct T_POSTE_PRODUIT *posteProduitIn, struct T_POSTE_PRODUIT *posteProduitOut);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:767:5"
+
+[TCOM_ProduitSupprimer]
+Class="Function"
+Prototype="int TCOM_ProduitSupprimer(struct T_POSTE_PRODUIT *posteProduit);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:883:5"
+
+[SCPROD_GenerationSnClient]
+Class="Function"
+Prototype="int SCPROD_GenerationSnClient(int nItfe, struct T_TCOM_BASE *tcomBase, char *strNumSerie, char *strFormatClient, char *strSnClient, char *strErreurMessage, int nbParam, ...);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:987:5"
+
+[SCPROD_LiberationSnPFIN]
+Class="Function"
+Prototype="int SCPROD_LiberationSnPFIN(int nItfe, struct T_TCOM_BASE *tcomBase, char *OrdreFabrication, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:1271:5"
+
+[SCPROD_GenerationStartSnPFIN]
+Class="Function"
+Prototype="int SCPROD_GenerationStartSnPFIN(int nItfe, struct T_TCOM_BASE *tcomBase, char *codeProduit, char *indiceProduit, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:1452:5"
+
+[SCPROD_StartSnPFIN]
+Class="Function"
+Prototype="int SCPROD_StartSnPFIN(int nItfe, struct T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:1641:5"
+
+[SCPROD_StartSnCIE]
+Class="Function"
+Prototype="int SCPROD_StartSnCIE(int nItfe, struct T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:1797:5"
+
+[SCPROD_SignoffSnPFIN]
+Class="Function"
+Prototype="int SCPROD_SignoffSnPFIN(int nItfe, struct T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:1954:5"
+
+[SCPROD_RecuperationSFCDepuisComposant]
+Class="Function"
+Prototype="int SCPROD_RecuperationSFCDepuisComposant(int nItfe, struct T_TCOM_BASE *tcomBase, char *Composant, char *SFC, int *iExistenceSFC, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:2131:5"
+
+[SCPROD_LogNC]
+Class="Function"
+Prototype="int SCPROD_LogNC(int nItfe, struct T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:2332:5"
+
+[SCPROD_CollectSFCData]
+Class="Function"
+Prototype="int SCPROD_CollectSFCData(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *NomPropriete, char *ValeurPropriete, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:2526:5"
+
+[SCPROD_CollectSFCDataTableau]
+Class="Function"
+Prototype="int SCPROD_CollectSFCDataTableau(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char **Tableau, int Lg1, int Lg2, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:2682:5"
+
+[SCPROD_LogParametricData]
+Class="Function"
+Prototype="int SCPROD_LogParametricData(int nItfe, int IndexMesure, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:2827:5"
+
+[SCPROD_LogParametricDataTableau]
+Class="Function"
+Prototype="int SCPROD_LogParametricDataTableau(int nItfe, char **Tableau, int Lg1, int Lg2, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:3020:5"
+
+[SCPROD_AjoutStockComposant]
+Class="Function"
+Prototype="int SCPROD_AjoutStockComposant(int nItfe, struct T_TCOM_BASE *tcomBase, char *Composant, char *Indice, char *Valeur, int *iExistence, char *SFCParent, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:3194:5"
+
+[SCPROD_AssemblageComposant]
+Class="Function"
+Prototype="int SCPROD_AssemblageComposant(int nItfe, struct T_TCOM_BASE *tcomBase, char *ValeurComposant, char *CodeComposant, char *SFC, char *TypeAssemblage, char *Operation, char *Ressource, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:3426:5"
+
+[SCPROD_AssemblageComposantTableau]
+Class="Function"
+Prototype="int SCPROD_AssemblageComposantTableau(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *Operation, char *Ressource, char **Tableau, int Lg1, int Lg2, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:3663:5"
+
+[SCPROD_RecuperationComposant]
+Class="Function"
+Prototype="int SCPROD_RecuperationComposant(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *TypeComposant, char *ValeurComposant, int *iExistenceComposant, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:3857:5"
+
+[SCPROD_RecuperationProprieteSFC]
+Class="Function"
+Prototype="int SCPROD_RecuperationProprieteSFC(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *NomPropriete, char *ValeurPropriete, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:4080:5"
+
+[SCPROD_RecuperationProprietesSFCTableau]
+Class="Function"
+Prototype="int SCPROD_RecuperationProprietesSFCTableau(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char ***TableauValeurs, int *Lg1, int *Lg2, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:4264:5"
+
+[SCPROD_CompleteSnPFIN]
+Class="Function"
+Prototype="int SCPROD_CompleteSnPFIN(int nItfe, struct T_TCOM_BASE *tcomBase, char *Operation, char *Ressource, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:4436:5"
+
+[SCPROD_EnregistrementLog]
+Class="Function"
+Prototype="int SCPROD_EnregistrementLog(int nItfe, struct T_TCOM_BASE *tcomBase, char *BufferTrace, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:4587:5"
+
+[SCPROD_InformationsOF]
+Class="Function"
+Prototype="int SCPROD_InformationsOF(int nItfe, struct T_TCOM_BASE *tcomBase, char *OrdreFabrication, char *RetourCodeProduit, char *RetourIndiceProduit, char *RetourTypeOF, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:4773:5"
+
+[SCPROD_InformationsSFC]
+Class="Function"
+Prototype="int SCPROD_InformationsSFC(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *RetourCodeProduit, char *RetourIndiceProduit, char *RetourOF, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:4929:5"
+
+[SCPROD_InformationsHDD]
+Class="Function"
+Prototype="int SCPROD_InformationsHDD(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *RetourCodeProduit, char *RetourIndiceProduit, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5105:5"
+
+[TCOM_RecuperationProduitsParents]
+Class="Function"
+Prototype="int TCOM_RecuperationProduitsParents(struct T_TCOM_BASE *tcomBase, char *strCodeProduit, char *strIndiceProduit, struct T_PRODUIT **tabProduitsParents, int *nbProduitsParents, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5273:5"
+
+[TCOM_RecuperationProduitsEnfants]
+Class="Function"
+Prototype="int TCOM_RecuperationProduitsEnfants(struct T_TCOM_BASE *tcomBase, char *strCodeProduit, char *strIndiceProduit, struct T_PRODUIT **tabProduitsEnfants, int *nbProduitsEnfants, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5402:5"
+
+[SCPROD_RecuperationDateHeure]
+Class="Function"
+Prototype="int SCPROD_RecuperationDateHeure(struct T_TCOM_BASE *tcomBase, struct T_DATE_HEURE *dateheure, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5575:5"
+
+[TCOM_EcritureCle]
+Class="Function"
+Prototype="int TCOM_EcritureCle(struct T_TCOM_BASE *tcomBase, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char **tabParam, int iParamLength, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5676:5"
+
+[TCOM_RecuperationCles]
+Class="Function"
+Prototype="int TCOM_RecuperationCles(int nItfe, struct T_TCOM_BASE *tcomBase, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char **tabParam, int iParamLength, char ***tabValeursCle, int *iQuantiteCle, int *iValeursCleLength, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5809:5"
+
+[TCOM_LectureCle]
+Class="Function"
+Prototype="int TCOM_LectureCle(int nItfe, struct T_TCOM_BASE *tcomBase, char *strNomTableCle, char *strNumSerie, char *strCodeProduit, char *strIndiceProduit, char **tabParam, int iParamLength, char ***tabValeursCle, int *iValeursCleLength, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:5921:5"
+
+[TCOM_RecuperationMasqueLogoEtiquette]
+Class="Function"
+Prototype="int TCOM_RecuperationMasqueLogoEtiquette(int nItfe, struct T_TCOM_BASE *tcomBase, char *strNumserie, char *strCodeProduit, char *strIndiceProduit, char *strServeurHttp, char *strUrlPage, char *strLogo, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:6027:5"
+
+[TCOM_RecuperationMasqueEtiquette]
+Class="Function"
+Prototype="int TCOM_RecuperationMasqueEtiquette(int nItfe, struct T_TCOM_BASE *tcomBase, char *strNumserie, char *strCodeProduit, char *strIndiceProduit, char *strServeurHttp, char *strUrlPage, char *strMasque, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:6133:5"
+
+[TCOM_RecuperationSectionParametres]
+Class="Function"
+Prototype="int TCOM_RecuperationSectionParametres(struct T_TCOM_BASE *tcomBase, char *NomSectionParametre, char ***TabParametresDetails, int *NombreLignesParametresDetails, int *NombreColonnesParametresDetails, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:6244:5"
+
+[TCOM_V2_GenerationSnClient]
+Class="Function"
+Prototype="int TCOM_V2_GenerationSnClient(int nItfe, struct T_TCOM_BASE *tcomBase, char *strFormatClient, char *strFormatClientSapme, char *strSnClient, char *strErreurMessage, int nbParam, ...);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:6422:5"
+
+[TCOM_GenerationSnClient]
+Class="Function"
+Prototype="int TCOM_GenerationSnClient(int nItfe, struct T_TCOM_BASE *tcomBase, char *strFormatClient, char *strSnClient, char *strErreurMessage, int nbParam, ...);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:6694:5"
+
+[SCPROD_ImprimerViaDll]
+Class="Function"
+Prototype="int SCPROD_ImprimerViaDll(int nItfe, struct T_TCOM_BASE *tcomBase, char *SFC, char *chNumArticle, int QteEtiquettes, char *chNomZebra, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:6874:5"
+
+[SCPROD_TraceAppels]
+Class="Function"
+Prototype="int SCPROD_TraceAppels(int nItfe, char *Message);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:7003:5"
+
+[SCPROD_InformationsBom]
+Class="Function"
+Prototype="int SCPROD_InformationsBom(int nItfe, struct T_TCOM_BASE *tcomBase, char *OrdreFabrication, char *RetourCodeProduit, char *RetourIndiceProduit, char *RetourTypeOF, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\TracaSCProduction.c:7055:5"
+

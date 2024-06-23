@@ -1,0 +1,55 @@
+-nologo
+-out:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\BancBWC.exe
+-arch:x86
+-timestamp
+-loadextmod
+-res:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\resources.res
+-entry:_CVIWinMainStartupCode@0
+-base:0x400000
+-linked:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\linkersummary.txt
+-dlldeps:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\dlldependencies.txt
+-licensing:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\linkerlicensing.txt
+-browsedeps:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\moduledependencies.txt
+-stackreserve:10097152
+-stackcommit:4096
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\dllTracaCom.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\fil2lo.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Fonctions.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Globale.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\IHM.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Main.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Mesures.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Multilangue.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\replacingall.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\SCProduction.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Telnet.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Thread.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\TracaSCProduction.obj
+-in:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\cvibuild.Banc_BWC_RGW\Release\Variables.obj
+-more:c:\program files (x86)\national instruments\cvi2020\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2020\bin\msvc\cvi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\advanlys.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Lib\Bd32\BD32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\bufferoverflowu.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\toolbox\msvc\inifile.obj
+-more:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Lib\IRTrans\IRTransDLL\IRTransDLL.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\omp.lib
+-more:c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Lib\Rs232\RS232.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\Version.Lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

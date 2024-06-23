@@ -1,0 +1,65 @@
+[MES_Get]
+Class="Function"
+Prototype="int MES_Get(struct T_MESURES *tTabMesure, struct __SCProduction_GestionProductions *instSCProduction, char *codeProduit, char *indiceProduit, char *nomPoste, int nItfe, int idPort, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:101:5"
+
+[MES_Delete]
+Class="Function"
+Prototype="int MES_Delete(struct T_MESURES *tTabMesure);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:266:5"
+
+[MES_Reset]
+Class="Function"
+Prototype="int MES_Reset(struct T_MESURES *tTabMesure);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:303:5"
+
+[MES_Index]
+Class="Function"
+Prototype="int MES_Index(struct T_MESURES *tTabMesure, enum T_MES_TYPE type);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:356:5"
+
+[MES_GetName]
+Class="Function"
+Prototype="int MES_GetName(enum T_MES_TYPE type, char *chName);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:404:5"
+
+[MES_Capturer]
+Class="Function"
+Prototype="int MES_Capturer(struct T_MESURES *tTabMesure, enum T_MES_TYPE type, char *status, float valeur, int duree);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:466:5"
+
+[MES_Enregistrer]
+Class="Function"
+Prototype="int MES_Enregistrer(struct T_MESURES *tTabMesure, long long idMvtTest, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:545:5"
+
+[MES_PrintTab]
+Class="Function"
+Prototype="int MES_PrintTab(struct T_MESURES *tMesures, char *strPrint);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:641:5"
+
+[MES_Print]
+Class="Function"
+Prototype="int MES_Print(struct T_MESURE *tMesure, char *strPrint);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:685:5"
+
+[MES_EnregistrerTableau]
+Class="Function"
+Prototype="int MES_EnregistrerTableau(struct T_MESURES *tTabMesure, int nItfe, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:776:5"
+
+[MES_EnregistrerTableauV2]
+Class="Function"
+Prototype="int MES_EnregistrerTableauV2(struct T_MESURES1 *tTabMesure, int nItfe, struct FILE *fichier, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:898:5"
+
+[MES_EnregistrerTableauV3]
+Class="Function"
+Prototype="int MES_EnregistrerTableauV3(struct T_MESURES1 *tTabMesure, int nItfe, struct FILE *fichier, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:1385:5"
+
+[MES_EnregistrerTableauV2Log]
+Class="Function"
+Prototype="int MES_EnregistrerTableauV2Log(struct T_MESURES *tTabMesure, const char *filename, int nItfe, struct FILE *fichier, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Mesures.c:1761:5"
+

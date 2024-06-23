@@ -1,0 +1,70 @@
+[AfficheInfo]
+Class="Function"
+Prototype="void AfficheInfo(int mode, int codeErr, ...);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:25:6"
+
+[Telnet_Query_thread]
+Class="Function"
+Prototype="int Telnet_Query_thread(int handletelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:59:6"
+
+[DisconnectTelnetThread]
+Class="Function"
+Prototype="int DisconnectTelnetThread(int handle);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:102:6"
+
+[ConnectTelnetThread]
+Class="Function"
+Prototype="int ConnectTelnetThread(char *Ip, int *handleTelnet);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:118:6"
+
+[Telnet_QueryThread_2G]
+Class="Function"
+Prototype="int Telnet_QueryThread_2G(int handleTelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:177:7"
+
+[ClearBufferTelnet_2G]
+Class="Function"
+Prototype="int ClearBufferTelnet_2G(int iFlagTelnet);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:205:6"
+
+[ClearBufferTelnet]
+Class="Function"
+Prototype="int ClearBufferTelnet(int iFlagTelnet);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:225:6"
+
+[UpdateIHM]
+Class="Function"
+Prototype="int UpdateIHM();"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:245:5"
+
+[ClearBufferTelnet_5G]
+Class="Function"
+Prototype="int ClearBufferTelnet_5G(int iFlagTelnet);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:259:5"
+
+[Telnet_Query_TME]
+Class="Function"
+Prototype="int Telnet_Query_TME(int handleTelnet, char *reponse, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:280:5"
+
+[Telnet_Query_TBR6_FP]
+Class="Function"
+Prototype="int Telnet_Query_TBR6_FP(int handleTelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:304:7"
+
+[Telnet_Query_GPIO]
+Class="Function"
+Prototype="int Telnet_Query_GPIO(int handleTelnet, char *Question, char *Tag, char *reponse, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:329:5"
+
+[Telnet_Query_Festo]
+Class="Function"
+Prototype="int Telnet_Query_Festo(int handleTelnet, char *Question, char *Tag, char *reponse, char *signal, int IndiceCMMO, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:354:6"
+
+[Telnet_Query]
+Class="Function"
+Prototype="int Telnet_Query(int HandleTelnet, char *Question, char *Tag, char *Response, char *signal, int TimeOutms);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Telnet.c:400:5"
+

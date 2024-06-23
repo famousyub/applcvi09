@@ -1,0 +1,10 @@
+[replaceWord]
+Class="Function"
+Prototype="char *replaceWord(const char *s, const char *oldW, const char *newW);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\replacingall.c:44:7"
+
+[processId]
+Class="Function"
+Prototype="int processId(int x);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\replacingall.c:80:5"
+

@@ -1,0 +1,500 @@
+[FCT_TracaBdd]
+Class="Function"
+Prototype="int FCT_TracaBdd(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:343:5"
+
+[FCT_TracaBddKo]
+Class="Function"
+Prototype="int FCT_TracaBddKo(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:452:5"
+
+[FCT_AutorisationPassage]
+Class="Function"
+Prototype="int FCT_AutorisationPassage(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:540:1"
+
+[FCT_PropietesEtatInit]
+Class="Function"
+Prototype="int FCT_PropietesEtatInit(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:884:5"
+
+[FCT_AfficheInfo]
+Class="Function"
+Prototype="void FCT_AfficheInfo(int nItfe, int mode, int codeErr, ...);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:942:6"
+
+[FCT_GetVersionInfo]
+Class="Function"
+Prototype="void FCT_GetVersionInfo(char *filePath, char *strVersion);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1058:6"
+
+[FCT_GetIdPoste]
+Class="Function"
+Prototype="void FCT_GetIdPoste(char *sIDPoste, int maxIdSize);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1112:6"
+
+[FCT_AfficheVersionAppli]
+Class="Function"
+Prototype="void FCT_AfficheVersionAppli(char *appName, int panelHnd);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1156:6"
+
+[FCT_RecupCommandeTT]
+Class="Function"
+Prototype="int FCT_RecupCommandeTT(int nItfe, int idPort, char *BufferAttendu, char *chBufferLu, unsigned long *taille_recu, int TimeOut, short *erreur, long *codeErreur, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1214:5"
+
+[FCT_EnvoiCommandeTT]
+Class="Function"
+Prototype="int FCT_EnvoiCommandeTT(int nItfe, int idPort, char *BufferCommande, int AffichageTrace, short *erreur, long *codeErreur, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1305:5"
+
+[FCT_EnvoiCommandeTTAvecVerifRetour]
+Class="Function"
+Prototype="int FCT_EnvoiCommandeTTAvecVerifRetour(int nItfe, int idPort, char *BufferCommande, char *BufferAttendu, char *chBufferLu, unsigned long *taille_recu, int TimeOut, int AffichageTrace, short *erreur, long *codeErreur, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1387:5"
+
+[FCT_RecuperationVariableTraca]
+Class="Function"
+Prototype="int FCT_RecuperationVariableTraca(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1495:5"
+
+[FCT_RechercheTag]
+Class="Function"
+Prototype="int FCT_RechercheTag(char *chBuffer, char *chTag, char *chRetour);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1742:5"
+
+[FCT_MasqueValidation]
+Class="Function"
+Prototype="int FCT_MasqueValidation(char *chMasque, char *chValeur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1806:5"
+
+[FCT_SupprimerTag]
+Class="Function"
+Prototype="void FCT_SupprimerTag(char *chValeur, char *chTag);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1852:6"
+
+[FCT_RemplacerTag]
+Class="Function"
+Prototype="void FCT_RemplacerTag(char *chValeur, int nTaille, char *chTagOld, char *chTagNew);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1889:6"
+
+[FCT_ProduitPrint]
+Class="Function"
+Prototype="int FCT_ProduitPrint(struct T_POSTE_PRODUIT *tPosteProduit, char *strPrint, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:1973:5"
+
+[FCT_TracaInit]
+Class="Function"
+Prototype="int FCT_TracaInit(struct T_VARIABLES_TRACA *tVariablesTraca);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2040:5"
+
+[FCT_TracaRaz]
+Class="Function"
+Prototype="int FCT_TracaRaz(struct T_VARIABLES_TRACA *tVariablesTraca);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2087:5"
+
+[FCT_TracaPrint]
+Class="Function"
+Prototype="int FCT_TracaPrint(struct T_VARIABLES_TRACA *tVariablesTraca, char *strPrint, char *strMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2139:5"
+
+[FCT_InfoMemoire]
+Class="Function"
+Prototype="void FCT_InfoMemoire(int nItfe, char *step);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2215:6"
+
+[FCT_ProduitsRaz]
+Class="Function"
+Prototype="int FCT_ProduitsRaz(struct T_POSTE_PRODUITS *posteProduits);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2254:5"
+
+[FCT_clean_atapi]
+Class="Function"
+Prototype="int FCT_clean_atapi(int nItfe, int AffichageTrace, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2337:5"
+
+[FCT_ecoute_com]
+Class="Function"
+Prototype="int FCT_ecoute_com(int nItfe, int AffichageTrace, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2468:5"
+
+[COM_RechercheTag]
+Class="Function"
+Prototype="int COM_RechercheTag(int numSlot, unsigned char *tag, unsigned long lngTag, unsigned char carFinTag, unsigned char *tagSuite, unsigned long *lngTagSuite, unsigned long *posTag, int *tagTrouv);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2619:5"
+
+[FCT_ChercherTag]
+Class="Function"
+Prototype="int FCT_ChercherTag(int nItfe, char *Tag, int iTimeOut);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2711:5"
+
+[FCT_RecupSnSfin]
+Class="Function"
+Prototype="int FCT_RecupSnSfin(int nItfe, char *Tag, char *Sn);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:2846:5"
+
+[FCT_VerificationSFC]
+Class="Function"
+Prototype="int FCT_VerificationSFC(int nItfe, char *SFC, char *CodeProduit, char *IndiceProduit, char *ReferenceOF, char *OF_SAPME, char *strMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3025:5"
+
+[FCT_VerificationSFC_MultiOF_CMS]
+Class="Function"
+Prototype="int FCT_VerificationSFC_MultiOF_CMS(int nItfe, char *SFC, char *CodeProduit, char *IndiceProduit, char *strMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3136:5"
+
+[FCT_VerificationVariables]
+Class="Function"
+Prototype="int FCT_VerificationVariables(int nItfe, char *chMessErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3225:5"
+
+[FCT_LectureNumserieGateWay]
+Class="Function"
+Prototype="int FCT_LectureNumserieGateWay(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3469:5"
+
+[FCT_Verification_version_Firmware]
+Class="Function"
+Prototype="int FCT_Verification_version_Firmware(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3583:5"
+
+[Test_button]
+Class="Function"
+Prototype="int Test_button(int HandleTelnet, char cmd[1024], int TimeOut, char Tag[1024], char signal[64], char sMessage[50001]);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3616:5"
+
+[OuvertureTelnet]
+Class="Function"
+Prototype="int OuvertureTelnet(char sIPDUT[255], char sLogin[255], char sPreFixLogin[255], char sSuFixLogin[255], char sPassword[255], char sSuFixPassword[255], int TimeOut);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3632:5"
+
+[LectureDFAviaTelnet]
+Class="Function"
+Prototype="int LectureDFAviaTelnet(int HandleTelnet, char *SendCmd, int LengthDFA, int TimeOutms, char *sDFALue, char *sMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3672:5"
+
+[Test_button_RC]
+Class="Function"
+Prototype="int Test_button_RC(int HandleTelnet, char cmd[1024], int TimeOut, char Tag[1024], char signal[64], int IndiceCMMO, char sMessage[50001]);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3725:5"
+
+[AFficheMsgErreur]
+Class="Function"
+Prototype="int AFficheMsgErreur(int iErreur, char *sMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3757:5"
+
+[TelnetOpenSession]
+Class="Function"
+Prototype="int TelnetOpenSession(int *HandleTelnet, char *IPFAST, int NumPort, char *Login, char *TagLogin, char *Psw, char *TagPassword, char *Response);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3769:5"
+
+[FCT_CloseConnexionTelnet]
+Class="Function"
+Prototype="int FCT_CloseConnexionTelnet(int nItfe, char *chMessageErreur, int HandleTelnet);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3835:5"
+
+[TelnetCloseSession]
+Class="Function"
+Prototype="int TelnetCloseSession(int HandleTelnet, char *Response);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3846:6"
+
+[TelnetCloseSession_slot2]
+Class="Function"
+Prototype="int TelnetCloseSession_slot2(int HandleTelnet, char *Response);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3857:6"
+
+[FCT_AttenteDemarrageGateWay]
+Class="Function"
+Prototype="int FCT_AttenteDemarrageGateWay(int nItfe, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:3945:5"
+
+[FCT_AttentePertePingGateWay]
+Class="Function"
+Prototype="int FCT_AttentePertePingGateWay(int nItfe, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4007:5"
+
+[FCT_Assemblage_fille_mere]
+Class="Function"
+Prototype="int FCT_Assemblage_fille_mere(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4030:5"
+
+[FCT_Initialisation]
+Class="Function"
+Prototype="int FCT_Initialisation(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4068:5"
+
+[FCT_Finalisation]
+Class="Function"
+Prototype="int FCT_Finalisation(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4111:5"
+
+[FCT_Config_Wifi_2G]
+Class="Function"
+Prototype="int FCT_Config_Wifi_2G(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4153:5"
+
+[FCT_Config_Wifi_5G]
+Class="Function"
+Prototype="int FCT_Config_Wifi_5G(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4194:5"
+
+[FCT_Config_BT]
+Class="Function"
+Prototype="int FCT_Config_BT(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4234:5"
+
+[FCT_Test_Bouton]
+Class="Function"
+Prototype="int FCT_Test_Bouton(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4275:5"
+
+[FCT_Config_IR]
+Class="Function"
+Prototype="int FCT_Config_IR(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4348:5"
+
+[FCT_Test_IR]
+Class="Function"
+Prototype="int FCT_Test_IR(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4386:5"
+
+[FCT_Send_IR]
+Class="Function"
+Prototype="int FCT_Send_IR(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4439:5"
+
+[FCT_reboot]
+Class="Function"
+Prototype="int FCT_reboot(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4464:5"
+
+[FCT_Mesure_Wifi_2G]
+Class="Function"
+Prototype="int FCT_Mesure_Wifi_2G(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4502:5"
+
+[FCT_Mesure_Wifi_5G]
+Class="Function"
+Prototype="int FCT_Mesure_Wifi_5G(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4748:5"
+
+[FCT_Mesure_BT]
+Class="Function"
+Prototype="int FCT_Mesure_BT(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:4999:5"
+
+[FCT_ConfigMode]
+Class="Function"
+Prototype="int FCT_ConfigMode(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5229:5"
+
+[FCT_ConfigSSID]
+Class="Function"
+Prototype="int FCT_ConfigSSID(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5241:5"
+
+[FCT_VerifAssociationDongle]
+Class="Function"
+Prototype="int FCT_VerifAssociationDongle(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5251:5"
+
+[FCT_RecupRSSI]
+Class="Function"
+Prototype="int FCT_RecupRSSI(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5261:5"
+
+[FCT_SuspensionDiffusionWifi]
+Class="Function"
+Prototype="int FCT_SuspensionDiffusionWifi(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5272:6"
+
+[FCT_CmdTTExtract]
+Class="Function"
+Prototype="int FCT_CmdTTExtract(char *cmdIn, struct T_TAB_CMD *cmdOut);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5282:5"
+
+[FCT_CmdExecution]
+Class="Function"
+Prototype="int FCT_CmdExecution(int nItfe, int iHandleTelnet, struct T_CMD *cmdTT, char ***info, int *nbInfo, int timeout);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5428:5"
+
+[FCT_EnvoieLogBdd]
+Class="Function"
+Prototype="int FCT_EnvoieLogBdd(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5652:5"
+
+[FCT_CmdComExecutionV5]
+Class="Function"
+Prototype="int FCT_CmdComExecutionV5(int nItfe, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:5706:5"
+
+[FCT_CmdComExecutionV3]
+Class="Function"
+Prototype="int FCT_CmdComExecutionV3(int nItfe, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:6019:5"
+
+[FCT_CmdComExtract]
+Class="Function"
+Prototype="int FCT_CmdComExtract(char *cmdIn, struct T_TAB_CMD *cmdOut);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:6742:5"
+
+[FCT_OuverturePortsCOM]
+Class="Function"
+Prototype="int FCT_OuverturePortsCOM(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:6961:5"
+
+[FCT_RemplacerEscapeSequence]
+Class="Function"
+Prototype="void FCT_RemplacerEscapeSequence(char *chValeur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:7220:6"
+
+[FCT_ControleVersion]
+Class="Function"
+Prototype="int FCT_ControleVersion();"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:7327:5"
+
+[FCT_Lecture_Version]
+Class="Function"
+Prototype="int FCT_Lecture_Version(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:7351:5"
+
+[FCT_FermeturePortsCOM]
+Class="Function"
+Prototype="int FCT_FermeturePortsCOM(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:7466:5"
+
+[TST_Leds_Feasa]
+Class="Function"
+Prototype="int TST_Leds_Feasa(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:7796:5"
+
+[FCT_CmdComExecutionInstSansRetour]
+Class="Function"
+Prototype="int FCT_CmdComExecutionInstSansRetour(int nItfe, int idPort, int ParamRX, int ParamTX, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:7903:5"
+
+[Connect_Switch_SP8T]
+Class="Function"
+Prototype="int Connect_Switch_SP8T(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8279:5"
+
+[FCT_Switch]
+Class="Function"
+Prototype="int FCT_Switch(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8323:5"
+
+[FCT_CmdComExecutionV4]
+Class="Function"
+Prototype="int FCT_CmdComExecutionV4(int nItfe, int HandleTelnet, int AffichageTrace, char *chCmdTT, char ***info, int *nbInfo, char *chTrace, int timeout);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8369:5"
+
+[FCT_Switch_SP8T]
+Class="Function"
+Prototype="int FCT_Switch_SP8T(int nItfe, char *chMessageErreur, char *PortSwitch);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8663:5"
+
+[FCT_Comm_Attente_Fermeture_Caisson]
+Class="Function"
+Prototype="int FCT_Comm_Attente_Fermeture_Caisson(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8700:5"
+
+[FCT_Comm_Caisson_Open]
+Class="Function"
+Prototype="int FCT_Comm_Caisson_Open(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8755:5"
+
+[FCT_Comm_Init_Caisson]
+Class="Function"
+Prototype="int FCT_Comm_Init_Caisson(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8818:5"
+
+[FCT_Check_Driver_wifi_2Ghz]
+Class="Function"
+Prototype="int FCT_Check_Driver_wifi_2Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8865:5"
+
+[FCT_Update_Driver_wifi_2Ghz]
+Class="Function"
+Prototype="int FCT_Update_Driver_wifi_2Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8906:5"
+
+[FCT_Check_Driver_BT]
+Class="Function"
+Prototype="int FCT_Check_Driver_BT(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:8967:5"
+
+[FCT_Update_Driver_BT]
+Class="Function"
+Prototype="int FCT_Update_Driver_BT(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9008:5"
+
+[FCT_UPDATE_IP_DUT]
+Class="Function"
+Prototype="int FCT_UPDATE_IP_DUT(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9067:5"
+
+[FCT_TEST_wifi_2Ghz]
+Class="Function"
+Prototype="int FCT_TEST_wifi_2Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9128:5"
+
+[FCT_TEST_BT]
+Class="Function"
+Prototype="int FCT_TEST_BT(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9403:5"
+
+[FCT_PingSTB]
+Class="Function"
+Prototype="int FCT_PingSTB(int nItfe, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9647:5"
+
+[FCT_Check_Driver_wifi_5Ghz]
+Class="Function"
+Prototype="int FCT_Check_Driver_wifi_5Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9739:5"
+
+[FCT_Update_Driver_wifi_5Ghz]
+Class="Function"
+Prototype="int FCT_Update_Driver_wifi_5Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9780:5"
+
+[FCT_TEST_wifi_5Ghz]
+Class="Function"
+Prototype="int FCT_TEST_wifi_5Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:9840:5"
+
+[FCT_TEST_wifi_6Ghz]
+Class="Function"
+Prototype="int FCT_TEST_wifi_6Ghz(int nItfe, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10103:5"
+
+[FCT_AttenteDemarrageGateWay_telnet]
+Class="Function"
+Prototype="int FCT_AttenteDemarrageGateWay_telnet(int nItfe, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10364:5"
+
+[FCT_CMD_PingGateWay]
+Class="Function"
+Prototype="int FCT_CMD_PingGateWay(int nItfe, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10386:5"
+
+[FCT_Rcup_Mesure_log]
+Class="Function"
+Prototype="int FCT_Rcup_Mesure_log(int nItfe, struct FILE *fichier, char *tabMesure, char *chMessageErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10438:5"
+
+[FCT_OpenConnexionTelnet]
+Class="Function"
+Prototype="int FCT_OpenConnexionTelnet(int nItfe, char *messagErreur);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10506:5"
+
+[FCT_EnregistrementMesure]
+Class="Function"
+Prototype="int FCT_EnregistrementMesure(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10695:5"
+
+[FCT_EnregistrementMesureLog]
+Class="Function"
+Prototype="int FCT_EnregistrementMesureLog(int nItfe, char **pTableauMesuresTemps);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Fonctions.c:10842:5"
+

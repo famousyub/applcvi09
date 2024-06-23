@@ -1,0 +1,5 @@
+[ThreadSlot]
+Class="Function"
+Prototype="int ThreadSlot(void *data);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\Thread.c:77:15"
+

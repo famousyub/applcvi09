@@ -1,0 +1,70 @@
+[IHM_GestCtrlPnl]
+Class="Function"
+Prototype="int IHM_GestCtrlPnl(int nItfe);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:78:5"
+
+[Cb_Liberation]
+Class="Function"
+Prototype="int Cb_Liberation(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:593:17"
+
+[CB_ActiveLog]
+Class="Function"
+Prototype="int CB_ActiveLog(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:637:17"
+
+[CB_PanelPere]
+Class="Function"
+Prototype="int CB_PanelPere(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:681:17"
+
+[CB_IntitPalette]
+Class="Function"
+Prototype="int CB_IntitPalette(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:730:17"
+
+[ChargeListeProduits]
+Class="Function"
+Prototype="int ChargeListeProduits();"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1095:5"
+
+[ClasseListeProduits]
+Class="Function"
+Prototype="void ClasseListeProduits(struct T_POSTE_PRODUITS *posteProduits, int type);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1141:6"
+
+[IHM_SlotCreate]
+Class="Function"
+Prototype="int IHM_SlotCreate(struct T_SLOT *tSlot, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1230:5"
+
+[IHM_SlotRemove]
+Class="Function"
+Prototype="int IHM_SlotRemove(int nItfe, char *strErreurMessage);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1348:5"
+
+[IHM_ShowPopup]
+Class="Function"
+Prototype="int IHM_ShowPopup(struct T_IHM_SLOT *tIhmSlot, int type, char *titre, char *message);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1473:5"
+
+[IHM_ShowLot]
+Class="Function"
+Prototype="int IHM_ShowLot(struct T_IHM_SLOT *tIhmSlot, int *lot, int *palette);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1599:5"
+
+[IHM_GetSlotIndexFromPanel]
+Class="Function"
+Prototype="int IHM_GetSlotIndexFromPanel(int panel);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1676:5"
+
+[IHM_CentrerObjet]
+Class="Function"
+Prototype="int IHM_CentrerObjet(int panel, int objet1, int objet2, int type);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1726:5"
+
+[IHM_ShowSn]
+Class="Function"
+Prototype="int IHM_ShowSn(struct T_IHM_SLOT *tIhmSlot, char *titre);"
+SourceLocation="c:\Users\g702306\Desktop\HGHH\Banc_BWC_RGW - V_09_01_2024\Src\IHM.c:1791:5"
+

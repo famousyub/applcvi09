@@ -1,0 +1,133 @@
+nom  : POWER_DIFFERENCE_0  mesure  : 5.89  unite  : dBm  val1  : -8  val2  : 17 
+nom  : FREQ_ERROR_AVG  mesure  : -3.84  unite  : ppm  val1  : -15  val2  : 15 
+nom  : LO_LEAKAGE_DBC_VSA1  mesure  : -32.24  unite  : dBc  val1  : -100  val2  : -20 
+nom  : FREQ_ERROR_AVG  mesure  : -3.87  unite  : ppm  val1  : -15  val2  : 15 
+nom  : LO_LEAKAGE_DBC_VSA1  mesure  : -35.85  unite  : dBc  val1  : -100  val2  : -20 
+nom  : FREQ_ERROR_AVG  mesure  : -3.88  unite  : ppm  val1  : -15  val2  : 15 
+nom  : LO_LEAKAGE_DBC_VSA1  mesure  : -36.25  unite  : dBc  val1  : -100  val2  : -20 
+nom  : EVM_DB_AVG_S1  mesure  : -44.14  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.90  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 11.23  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 11.67  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 21.04  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 23.94  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 11.32  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 10.01  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 16.28  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 14.92  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : -0.80  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -1.70  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : 0.33  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : -0.25  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -46.41  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.90  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 10.88  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 11.47  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 22.79  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 24.84  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 11.13  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 9.91  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 16.78  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 14.64  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : -0.58  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -0.58  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : -0.34  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : -0.38  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -44.37  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.92  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 10.52  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 11.07  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 26.18  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 25.46  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 10.14  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 9.13  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 15.99  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 14.94  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : -0.63  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -0.62  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : 0.32  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : 0.29  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -44.35  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.92  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 10.46  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 10.88  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 18.02  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 15.23  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 11.27  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 9.95  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 18.70  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 21.58  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : -0.29  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -0.29  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : -0.68  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : -1.36  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -45.48  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.93  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 10.12  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 10.75  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 16.79  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 15.91  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 11.62  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 10.59  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 18.27  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 18.80  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : 0.39  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : 0.01  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : -0.91  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : -1.63  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -45.90  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.95  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 9.27  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 9.77  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 13.30  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 13.27  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 10.84  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 9.75  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 22.02  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 24.52  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : 0.16  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : 0.02  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : -0.38  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : -0.40  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -43.67  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -3.98  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 18.21  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 16.87  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 17.84  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 22.23  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 18.45  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 17.90  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 21.12  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 23.79  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : -0.97  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -3.65  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : 1.10  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : 1.18  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -44.13  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -4.00  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 18.55  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 16.96  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 17.74  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 22.68  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 18.55  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 18.03  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 21.18  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 25.26  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : -1.20  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -4.05  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : 1.03  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : 1.08  unite  : dB  val1  : -6  val2  : 4 
+nom  : EVM_DB_AVG_S1  mesure  : -45.63  unite  : dB  val1  : -55  val2  : -35 
+nom  : FREQ_ERROR_AVG  mesure  : -4.01  unite  : ppm  val1  : -15  val2  : 15 
+nom  : MARGIN_DB_LO_A_VSA1  mesure  : 17.36  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_B_VSA1  mesure  : 15.64  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_C_VSA1  mesure  : 18.19  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_LO_D_VSA1  mesure  : 23.34  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_A_VSA1  mesure  : 20.10  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_B_VSA1  mesure  : 19.40  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_C_VSA1  mesure  : 21.38  unite  : dB  val1  : 0 
+nom  : MARGIN_DB_UP_D_VSA1  mesure  : 23.72  unite  : dB  val1  : 0 
+nom  : VALUE_LO_A_VSA1  mesure  : 0.44  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_LO_B_VSA1  mesure  : -3.20  unite  : dB  val1  : -6  val2  : 4 
+nom  : VALUE_UP_A_VSA1  mesure  : -0.92  unite  : dB  val1  : -4  val2  : 4 
+nom  : VALUE_UP_B_VSA1  mesure  : -4.51  unite  : dB  val1  : -6  val2  : 4 
